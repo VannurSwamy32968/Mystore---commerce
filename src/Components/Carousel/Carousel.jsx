@@ -21,10 +21,10 @@ function CarouselPage() {
     <div className="slider-container">
       <Slider {...settings}>
         <div>
-        <img src="public/luggage2.jpg" alt="" height="350px" width="100%"  />
+        <img src="public/couples.jpg" alt="" height="350px" width="100%"/>
         </div>
         <div>
-          <img src="public/couples.jpg" alt="" height="350px" width="100%"  />
+          <img src="public/luggage.jpg" alt="" height="350px" width="100%"/>
         </div>
        
       </Slider>

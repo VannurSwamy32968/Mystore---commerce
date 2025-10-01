@@ -2,10 +2,9 @@ import React from 'react'
 import './App.css'
 import StoreNavbar from './Components/Navbar/Navbar'
 import Home from './Pages/Home/Home'
-import Product from './Pages/Product/product'
 import { Route, Routes } from 'react-router-dom'
 import CartPage from './Pages/CartPage/CartPage'
-
+import Product from '../src/Pages/Product/Product'
 
 const App = () => {
   return (

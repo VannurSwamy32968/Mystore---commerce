@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Carousel } from "bootstrap";
+import image1 from "/public/couples.jpg"
+import image2 from "/public/luggage.jpg"
 
 function CarouselPage() {
   const settings = {
@@ -21,10 +23,10 @@ function CarouselPage() {
     <div className="slider-container">
       <Slider {...settings}>
         <div>
-        <img src="public/couples.jpg" alt="" height="350px" width="100%"/>
+        <img src={image1} alt="" height="350px" width="100%"/>
         </div>
         <div>
-          <img src="public/luggage.jpg" alt="" height="350px" width="100%"/>
+          <img src={image2} alt="" height="350px" width="100%"/>
         </div>
        
       </Slider>

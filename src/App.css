@@ -1,0 +1,39 @@
+.halfDiv{
+    width: 50%;
+}
+.productpage{
+    min-height: 100vh;
+}
+.productImage{
+height: 100vh;
+
+background-color: black;
+}
+.productInfo{
+height: 100vh;
+/* background-color: aqua; */
+}
+.listOfProducts{
+    min-height: 100vh;
+    /* background-color: black; */
+}
+.orderSummary{
+    min-height: 100vh;
+    background-color: white;
+}
+.productInCart{
+    background: white;
+    display: flex;
+    width: 80%;
+    border-radius: 10px;
+box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.5);
+}
+.cart{
+    font-size: 30px;
+    font-weight: 400;
+    margin-right: 50px;
+}
+.cart:hover{
+cursor: pointer;
+}
+
